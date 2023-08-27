@@ -147,7 +147,9 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    max-width: 1440px
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
 }
 .main-title {
     display: block;
@@ -161,7 +163,7 @@ a {
     padding-left: auto;
     padding-right: auto;
     margin-bottom: 48px;
-    max-width: 496px; 
+    max-width: 496px;
 }
 .order-button {
     display: block;
