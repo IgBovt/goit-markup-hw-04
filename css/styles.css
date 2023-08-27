@@ -88,7 +88,7 @@ a {
     color: #404bbf;
 }
 .nav-current-link::after {
-    content: ' ';
+    content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -144,7 +144,9 @@ a {
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-img.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
+    max-width: 1440px
 }
 .main-title {
     display: block;
@@ -208,7 +210,21 @@ a {
 .about-list-item:last-child {
     margin-right: 0;
 }
-.about-list-item::before {
+.about-icon-wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+}
+.about-icon-img {
+
+}
+/* .about-list-item::before {
     content: ' ';
     display: inline-block;
     background-size: contain;
@@ -242,7 +258,7 @@ a {
     background-size: 64px 64px;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 .about-title {
     color: #2E2F42;
     font-size: 20px;
